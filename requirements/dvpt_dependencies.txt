@@ -2,4 +2,7 @@
 # use pip install -r dvpt_dependencies.txt
 autopep8
 
+# code linter
+flake8
+
 # poetry env use 3.12.0rc1 # this for poetry to use this env

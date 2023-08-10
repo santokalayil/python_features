@@ -1,4 +1,3 @@
-import sys
 from lib.utils import find_python_version
 
 py_version = find_python_version()
@@ -17,5 +16,5 @@ if py_version in available_versions:
     else:
         pass
 else:
-    raise Exception("The python version you are currently using is not supported")
-
+    raise Exception(
+        "The python version you are currently using is not supported")
