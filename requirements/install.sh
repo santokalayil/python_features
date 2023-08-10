@@ -4,6 +4,6 @@ curl https://pyenv.run | bash
 
 pyenv update
 
-
+# poetry env use 3.12.0rc1 # this for poetry to use this env
 
 
