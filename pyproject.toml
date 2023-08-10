@@ -9,7 +9,7 @@ packages = [{include = "python_features"}]
 
 [tool.poetry.dependencies]
 # python = "^3.8"
-python = "3.12.0rc1"
+python = "3.12.0"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -18,3 +18,5 @@ ipykernel = "^6.25.1"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
