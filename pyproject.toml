@@ -11,6 +11,9 @@ packages = [{include = "python_features"}]
 python = "^3.8"
 
 
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.1"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
