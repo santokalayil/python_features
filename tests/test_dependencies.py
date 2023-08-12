@@ -1,6 +1,6 @@
 import pytest
 
-import prepare_tests
+# import prepare_tests
 from lib.utils import find_python_version
 
 # this is just dummy test case
