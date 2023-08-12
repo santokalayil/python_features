@@ -31,6 +31,6 @@ jobs:
             
             - name: Testing code with Pytest
               run: |
-                python -c "import sys; print(sys.path); print(100 * "=")"
+                python -c "import sys; print(sys.path); print(100 * '=')"
                 python -c "import os; print(os.getcwd())"
                 # pytest tests/
