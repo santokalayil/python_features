@@ -34,4 +34,4 @@ jobs:
                 python -c "import sys; print(sys.path); print(100 * '=')"
                 python -c "import os; print(os.getcwd())"
                 python -c "print('Folder Contents'); import os; print(os.listdir(os.getcwd()))"
-                # pytest tests/
+                pytest tests/
