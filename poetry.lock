@@ -130,6 +130,21 @@ files = [
 pycparser = "*"
 
 [[package]]
+name = "cmdkit"
+version = "2.6.1"
+description = "A command-line utility toolkit for Python."
+optional = false
+python-versions = "*"
+files = [
+    {file = "cmdkit-2.6.1-py3-none-any.whl", hash = "sha256:406e81df5d738dd89921c2bfefff1094638d5eccd42b0388e62490cf15dd596a"},
+    {file = "cmdkit-2.6.1.tar.gz", hash = "sha256:ea93d987d749a8cf3c89e9b053d30dfd8736985f94fdc63eb42c86f074d11c86"},
+]
+
+[package.extras]
+toml = ["toml (>=0.10.1)"]
+yaml = ["pyyaml (>=5.3.1)"]
+
+[[package]]
 name = "colorama"
 version = "0.4.6"
 description = "Cross-platform colored terminal text."
@@ -394,6 +409,20 @@ files = [
     {file = "mccabe-0.7.0-py2.py3-none-any.whl", hash = "sha256:6c2d30ab6be0e4a46919781807b4f0d834ebdd6c6e3dca0bda5a15f863427b6e"},
     {file = "mccabe-0.7.0.tar.gz", hash = "sha256:348e0240c33b60bbdf4e523192ef919f28cb2c3d7d5c7794f74009290f236325"},
 ]
+
+[[package]]
+name = "names-generator"
+version = "0.1.0"
+description = "Clone of the Moby/Docker random name generator as a Python package."
+optional = false
+python-versions = "*"
+files = [
+    {file = "names_generator-0.1.0-py3-none-any.whl", hash = "sha256:8fec2903c71204b64bbb12f2cce0fdabdcde2aa83ebea29025c7b6f62b55832b"},
+    {file = "names_generator-0.1.0.tar.gz", hash = "sha256:03d0deb20e4c179688018103eaee4004ac2b8d8ccc1f8152272f75168b6a0b41"},
+]
+
+[package.dependencies]
+cmdkit = ">=2.1.2"
 
 [[package]]
 name = "nest-asyncio"
@@ -962,4 +991,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "4011b9072533bcd51c8b5b688a01d8fcd7d47255ad0f209d2a9b5cdd949b5454"
+content-hash = "3d58fb6e3b3ee1175e8b958e898296e45bd8c4fe13b38653596a3c9b171a43ca"
