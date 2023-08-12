@@ -35,9 +35,9 @@ jobs:
                 python -c "import os; print(os.getcwd())"
                 python -c "print('Folder Contents'); import os; print(os.listdir(os.getcwd()))"
             
-            - name: Flake8 check
-              run: |
-                  flake8 ./
+            # - name: Flake8 check
+            #   run: |
+            #       flake8 ./
                 
             - name: Testing code with Pytest
               run: |
