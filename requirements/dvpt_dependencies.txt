@@ -7,4 +7,5 @@ flake8
 
 pytest
 
+ipykernel
 # poetry env use 3.12.0rc1 # this for poetry to use this env
