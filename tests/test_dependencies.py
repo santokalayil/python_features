@@ -1,6 +1,4 @@
-# this just adds main dir to the system path to help with the imports
-import prepare_tests as _
-
+import prepare_tests
 from lib.utils import find_python_version
 
 
