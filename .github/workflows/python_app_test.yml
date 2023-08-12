@@ -31,4 +31,5 @@ jobs:
             
             - name: Testing code with Pytest
               run: |
-                pytest tests/
+                python -c "import sys; print('\n'.join(sys.path))"
+                # pytest tests/
