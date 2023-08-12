@@ -34,6 +34,10 @@ jobs:
                 python -c "import sys; print(sys.path); print(100 * '=')"
                 python -c "import os; print(os.getcwd())"
                 python -c "print('Folder Contents'); import os; print(os.listdir(os.getcwd()))"
+            
+            - name: Flake8 check
+              run: |
+                  flake8 ./
                 
             - name: Testing code with Pytest
               run: |
